@@ -70,7 +70,7 @@ Business performance analytics is the practice of using data and KPIs to assess 
 
 #### 1. Dashboard Design (Tableau Desktop)
 
-* Used `Book1.twb` for building the visualizations.
+* Used `business_performance_dashboard.twb` for building the visualizations.
 * Structured a multi-tab layout with **Overview**, **Sales**, and **Orders** views.
 * Developed KPIs using calculated fields (e.g., ROE = Net Income / Equity).
 * Applied a smooth pastel gradient theme for presentation clarity.
@@ -113,14 +113,3 @@ Included the following files in this repository:
 * **Focus on High-GPM Segments** → Prioritize Consumer segment in campaigns.
 * **Improve ROA and OPM** → Explore automation and process improvements.
 * **Enhance Customer Retention** → Grow customer base and lower churn impact.
-
----
-
-### 🧾 Suggested File Names
-
-| Current File                 | Recommended Name                     |
-| ---------------------------- | ------------------------------------ |
-| Book1.twb                    | `business_performance_dashboard.twb` |
-| dashboard image              | `dashboard_preview.png`              |
-| \[Add your data CSV if used] | `business_kpi_data.csv`              |
-| README.md                    | *(keep as is)*                       |
