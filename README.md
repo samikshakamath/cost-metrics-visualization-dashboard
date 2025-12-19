@@ -1,13 +1,11 @@
-## 📊 Business Performance Dashboard
+## Business Performance Dashboard
 
 An interactive Tableau dashboard created to monitor sales performance, order volume, return rates, profitability metrics, and segment-based gross margin insights. This dashboard provides a clear visual of quarterly business trends and cost distribution to support financial strategy and operational efficiency.
 
 - **Author:** Samiksha Kamath
 - **Project Date:** Febuary 21st, 2025
 
----
-
-### 🛠️ Business Use Case
+### Business Use Case
 
 As a Business Intelligence Analyst, this dashboard was built to provide leadership teams with a centralized view of financial and operational performance. It helps decision-makers to:
 
@@ -21,41 +19,41 @@ This dashboard supports proactive decision-making, cost optimization, and revenu
 
 ---
 
-### ❓ What Is Business Performance Analytics?
+### What Is Business Performance Analytics?
 
 Business performance analytics is the practice of using data and KPIs to assess how well a company is achieving its goals. It includes financial ratios, sales analysis, return metrics, and cost structure evaluation to inform strategic direction and improve overall efficiency.
 
 ---
 
-### 🧭 Dashboard Features
+### Dashboard Features
 
-#### 🔢 KPI Summary (Top Row):
+#### KPI Summary (Top Row):
 
 * **Sales:** \$3.2M
 * **Orders:** 21,867
 * **Customers:** 2,726
 * **Returns:** 1,674
 
-#### 📈 Sales Trend Visualization:
+#### Sales Trend Visualization:
 
 * Quarterly sales from 2022 Q1 to 2024 Q4
 * Highlight of highest-performing quarter
 
-#### 🧮 Profitability Indicators:
+#### Profitability Indicators:
 
 * **GPM (Gross Profit Margin):** 26%
 * **OPM (Operating Profit Margin):** 12%
 * **ROA (Return on Assets):** 7%
 * **ROE (Return on Equity):** 19%
 
-#### 🧩 GPM by Segment:
+#### GPM by Segment:
 
 * Consumer: 38%
 * Corporate: 24%
 * Home: 16%
 * Visual radial charts for segment-wise margin distribution
 
-#### 💰 Cost Breakdown:
+#### Cost Breakdown:
 
 * Marketing: 20%
 * Operational: 30%
@@ -66,7 +64,7 @@ Business performance analytics is the practice of using data and KPIs to assess 
 
 ---
 
-### 🔧 How It Was Created
+### How It Was Created
 
 #### 1. Dashboard Design (Tableau Desktop)
 
@@ -86,19 +84,19 @@ Included the following files in this repository:
 
 ---
 
-### 📈 Key Insights from the Dashboard
+### Key Insights from the Dashboard
 
-#### 💹 Financial Overview:
+#### Financial Overview:
 
 * Steady sales growth across quarters with a Q1 2024 peak
 * Gross profit margin healthy at 26% but room to improve OPM
 
-#### 📦 Customer & Return Metrics:
+#### Customer & Return Metrics:
 
 * Customer base at 2,726
 * Return rate relatively high → impacts cost and satisfaction
 
-#### 🧾 Expense Analysis:
+#### Expense Analysis:
 
 * Operational costs account for the highest share at 30%
 * Marketing and product costs closely follow
@@ -106,7 +104,7 @@ Included the following files in this repository:
 
 ---
 
-### 💡 Strategic Recommendations
+### Strategic Recommendations
 
 * **Reduce Return Rate** → Investigate common causes and optimize fulfillment/QC.
 * **Increase Operational Efficiency** → Review processes contributing to 30% overhead.
