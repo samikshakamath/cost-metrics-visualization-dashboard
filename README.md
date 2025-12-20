@@ -1,4 +1,7 @@
-## Business Performance Dashboard
+# Executive Sales and Profitability Dashboard
+
+## Dashboard Overview
+
 <img src="dashboard_preview.png" alt="Sales Performance Tableau Dashboard" width="1000"/>
 
 An interactive Tableau dashboard created to monitor sales performance, order volume, return rates, profitability metrics, and segment-based gross margin insights. This dashboard provides a clear visual of quarterly business trends and cost distribution to support financial strategy and operational efficiency.
@@ -6,109 +9,143 @@ An interactive Tableau dashboard created to monitor sales performance, order vol
 - **Author:** Samiksha Kamath
 - **Project Date:** Febuary 21st, 2025
 
-### Business Use Case
+---
 
-As a Business Intelligence Analyst, this dashboard was built to provide leadership teams with a centralized view of financial and operational performance. It helps decision-makers to:
+## Project Overview
 
-* Track quarterly **sales growth** and identify trends.
-* Understand **customer and return behavior**.
-* Analyze **gross margin performance** by segment (Consumer, Corporate, Home).
-* Monitor **profitability ratios** such as GPM, OPM, ROA, and ROE.
-* Visualize **cost distribution** across key categories (Marketing, Operational, Product, etc.).
+This project presents an **executive-level sales and profitability dashboard** designed to provide a consolidated view of **revenue performance, customer activity, operational efficiency, and margin structure**.  
+The dashboard enables stakeholders to monitor **financial health, growth trends, and cost drivers** through a single, interactive interface.
 
-This dashboard supports proactive decision-making, cost optimization, and revenue enhancement strategies.
+The analysis focuses on **descriptive and diagnostic business intelligence**, supporting strategic and operational decision-making rather than predictive modelling.
 
 ---
 
-### What Is Business Performance Analytics?
+## Business Objectives
 
-Business performance analytics is the practice of using data and KPIs to assess how well a company is achieving its goals. It includes financial ratios, sales analysis, return metrics, and cost structure evaluation to inform strategic direction and improve overall efficiency.
+The dashboard is designed to answer the following key business questions:
 
----
-
-### Dashboard Features
-
-#### KPI Summary (Top Row):
-
-* **Sales:** \$3.2M
-* **Orders:** 21,867
-* **Customers:** 2,726
-* **Returns:** 1,674
-
-#### Sales Trend Visualization:
-
-* Quarterly sales from 2022 Q1 to 2024 Q4
-* Highlight of highest-performing quarter
-
-#### Profitability Indicators:
-
-* **GPM (Gross Profit Margin):** 26%
-* **OPM (Operating Profit Margin):** 12%
-* **ROA (Return on Assets):** 7%
-* **ROE (Return on Equity):** 19%
-
-#### GPM by Segment:
-
-* Consumer: 38%
-* Corporate: 24%
-* Home: 16%
-* Visual radial charts for segment-wise margin distribution
-
-#### Cost Breakdown:
-
-* Marketing: 20%
-* Operational: 30%
-* Product: 25%
-* Returns: 10%
-* Shipping: 15%
-* Horizontal bars to visually compare expense allocation
+- How are sales, orders, and customer volume trending over time?
+- What is the current profitability position across key financial ratios?
+- Which customer segments contribute the highest gross profit margin?
+- How are operational costs distributed across major expense categories?
+- Are sales growth and profitability aligned?
 
 ---
 
-### How It Was Created
+## Key Performance Indicators
 
-#### 1. Dashboard Design (Tableau Desktop)
+### Commercial Activity
+- **Total Sales:** $3.2M  
+- **Total Orders:** 21,867  
+- **Total Customers:** 2,726  
+- **Total Returns:** 1,674  
 
-* Used `business_performance_dashboard.twb` for building the visualizations.
-* Structured a multi-tab layout with **Overview**, **Sales**, and **Orders** views.
-* Developed KPIs using calculated fields (e.g., ROE = Net Income / Equity).
-* Applied a smooth pastel gradient theme for presentation clarity.
-
-#### 2. Files & Version Control (GitHub)
-
-Included the following files in this repository:
-
-* `business_performance_dashboard.twb` – Tableau workbook
-* `business_kpi_data.csv` – Cleaned source data (optional for transparency)
-* `dashboard_preview.png` – Snapshot image of the dashboard
-* `README.md` – Full project documentation
+These KPIs provide a high-level snapshot of commercial scale and operational load.
 
 ---
 
-### Key Insights from the Dashboard
+### Profitability Metrics
+- **Gross Profit Margin (GPM):** 26%  
+- **Operating Profit Margin (OPM):** 12%  
+- **Return on Assets (ROA):** 7%  
+- **Return on Equity (ROE):** 19%  
 
-#### Financial Overview:
-
-* Steady sales growth across quarters with a Q1 2024 peak
-* Gross profit margin healthy at 26% but room to improve OPM
-
-#### Customer & Return Metrics:
-
-* Customer base at 2,726
-* Return rate relatively high → impacts cost and satisfaction
-
-#### Expense Analysis:
-
-* Operational costs account for the highest share at 30%
-* Marketing and product costs closely follow
-* Return and shipping represent 25% of total cost combined
+These ratios enable rapid assessment of **margin efficiency and capital effectiveness**.
 
 ---
 
-### Strategic Recommendations
+## Analytical Components
 
-* **Reduce Return Rate** → Investigate common causes and optimize fulfillment/QC.
-* **Increase Operational Efficiency** → Review processes contributing to 30% overhead.
-* **Focus on High-GPM Segments** → Prioritize Consumer segment in campaigns.
-* **Improve ROA and OPM** → Explore automation and process improvements.
-* **Enhance Customer Retention** → Grow customer base and lower churn impact.
+### Sales Trend Analysis
+- Quarterly sales performance from **2022 Q1 to 2024 Q4**
+- Identification of growth acceleration and seasonal variation
+- Visual comparison of recent performance against historical baseline
+
+---
+
+### Segment-Level Profitability
+Gross Profit Margin (GPM) contribution by customer segment:
+
+- **Consumer:** 38%  
+- **Corporate:** 24%  
+- **Home:** 16%  
+
+This highlights which customer groups generate the highest margin contribution and supports **segment prioritisation strategies**.
+
+---
+
+### Cost Structure Analysis
+
+The dashboard decomposes total costs into key operational categories:
+
+- **Operational Costs:** 30%  
+- **Product Costs:** 25%  
+- **Marketing:** 20%  
+- **Shipping:** 15%  
+- **Returns:** 10%  
+
+This breakdown enables visibility into **cost concentration, efficiency gaps, and optimisation opportunities**.
+
+---
+
+## Dashboard Interactivity
+
+The dashboard supports interactive analysis through:
+
+- Tab-based navigation (Overview, Sales, Orders)
+- Dynamic filtering across KPIs and charts
+- Hover tooltips for detailed metric inspection
+
+All visuals update automatically, enabling rapid exploration without modifying source data.
+
+---
+
+## Tools and Technologies
+
+- **Business Intelligence Tool**
+  - KPI cards and ratio indicators
+  - Time-series trend charts
+  - Segment-level profitability visuals
+  - Cost decomposition analysis
+- **Structured financial and sales dataset**
+  - Transaction-level aggregation
+  - Customer and segment attributes
+  - Cost and margin components
+
+---
+
+## Use Cases
+
+- Executive performance reporting
+- Sales and profitability monitoring
+- Cost optimisation analysis
+- Segment-level strategy evaluation
+- Quarterly business reviews
+
+---
+
+## Key Insights
+
+- Sales growth is supported by strong order and customer volume
+- Profitability remains healthy, with solid gross and operating margins
+- Consumer segment is the primary driver of gross profit
+- Operational and product costs represent the largest expense areas
+- Returns contribute a non-trivial share of total costs and warrant monitoring
+
+---
+
+## Limitations
+
+- Analysis is descriptive and diagnostic only
+- No predictive forecasting or scenario simulation is included
+- Cost drivers are analysed at an aggregate level
+- Results represent a fixed historical reporting window
+
+---
+
+## Conclusion
+
+This dashboard provides a **clear, executive-ready view of sales performance and profitability**, integrating operational scale, margin health, and cost structure into a single analytical framework.  
+By aligning revenue growth with financial efficiency metrics, the dashboard supports **informed strategic decision-making and performance management**.
+
+The framework can be extended to include **forecasting, margin decomposition, and scenario analysis** in future iterations.
