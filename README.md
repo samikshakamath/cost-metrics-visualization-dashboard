@@ -1,4 +1,5 @@
 ## Business Performance Dashboard
+<img src="dashboard_preview.png" alt="Sales Performance Tableau Dashboard" width="1000"/>
 
 An interactive Tableau dashboard created to monitor sales performance, order volume, return rates, profitability metrics, and segment-based gross margin insights. This dashboard provides a clear visual of quarterly business trends and cost distribution to support financial strategy and operational efficiency.
 
